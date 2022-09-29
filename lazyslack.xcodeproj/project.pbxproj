@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		230F917E28DDB1B000279637 /* MainViewController+ConversationListActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230F917D28DDB1B000279637 /* MainViewController+ConversationListActions.swift */; };
+		230F918028DDB46F00279637 /* MainViewController+ConversationHistoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230F917F28DDB46F00279637 /* MainViewController+ConversationHistoryList.swift */; };
+		23A33FCF28DC7DE2004EFA2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A33FCE28DC7DE2004EFA2F /* Main.storyboard */; };
+		23A33FD128DCB690004EFA2F /* MainViewController+ConversationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A33FD028DCB690004EFA2F /* MainViewController+ConversationList.swift */; };
+		23A33FD328DCB6A8004EFA2F /* MainViewController+ConversationMembers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A33FD228DCB6A8004EFA2F /* MainViewController+ConversationMembers.swift */; };
+		23A33FD528DCB7C3004EFA2F /* MainViewController+Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A33FD428DCB7C3004EFA2F /* MainViewController+Music.swift */; };
+		23A33FD728DCCF8C004EFA2F /* MainViewController+UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A33FD628DCCF8C004EFA2F /* MainViewController+UserInfo.swift */; };
+		23A33FD928DCDF19004EFA2F /* MainViewController+ConversationHistoryActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A33FD828DCDF19004EFA2F /* MainViewController+ConversationHistoryActions.swift */; };
+		23A33FDB28DCE1AF004EFA2F /* MainViewController+DeleteMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A33FDA28DCE1AF004EFA2F /* MainViewController+DeleteMessage.swift */; };
+		23AB7E0C28E4D8F6005A233D /* lazyapi in Frameworks */ = {isa = PBXBuildFile; productRef = 23AB7E0B28E4D8F6005A233D /* lazyapi */; };
+		23F3660A28A94B30008C1238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F3660928A94B30008C1238 /* Assets.xcassets */; };
+		23F3662B28A94C20008C1238 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F3661828A94C20008C1238 /* MainViewController.swift */; };
+		23F3663428A94C20008C1238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F3662A28A94C20008C1238 /* AppDelegate.swift */; };
+		23F3663728A94C75008C1238 /* crack-music.arcade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23F3663628A94C75008C1238 /* crack-music.arcade.mp3 */; };
+		23F3663C28A94E6C008C1238 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F3663B28A94E6C008C1238 /* MainWindowController.swift */; };
+		23F73D2F28E242CA00526D94 /* lazyapi in Frameworks */ = {isa = PBXBuildFile; productRef = 23F73D2E28E242CA00526D94 /* lazyapi */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		230F917D28DDB1B000279637 /* MainViewController+ConversationListActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+ConversationListActions.swift"; sourceTree = "<group>"; };
+		230F917F28DDB46F00279637 /* MainViewController+ConversationHistoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+ConversationHistoryList.swift"; sourceTree = "<group>"; };
+		23A33FCE28DC7DE2004EFA2F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		23A33FD028DCB690004EFA2F /* MainViewController+ConversationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+ConversationList.swift"; sourceTree = "<group>"; };
+		23A33FD228DCB6A8004EFA2F /* MainViewController+ConversationMembers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+ConversationMembers.swift"; sourceTree = "<group>"; };
+		23A33FD428DCB7C3004EFA2F /* MainViewController+Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+Music.swift"; sourceTree = "<group>"; };
+		23A33FD628DCCF8C004EFA2F /* MainViewController+UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+UserInfo.swift"; sourceTree = "<group>"; };
+		23A33FD828DCDF19004EFA2F /* MainViewController+ConversationHistoryActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+ConversationHistoryActions.swift"; sourceTree = "<group>"; };
+		23A33FDA28DCE1AF004EFA2F /* MainViewController+DeleteMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+DeleteMessage.swift"; sourceTree = "<group>"; };
+		23F3660228A94B2F008C1238 /* lazyslack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lazyslack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F3660928A94B30008C1238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23F3660E28A94B30008C1238 /* lazyslack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lazyslack.entitlements; sourceTree = "<group>"; };
+		23F3661828A94C20008C1238 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		23F3662A28A94C20008C1238 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23F3663628A94C75008C1238 /* crack-music.arcade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "crack-music.arcade.mp3"; sourceTree = "<group>"; };
+		23F3663B28A94E6C008C1238 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23F365FF28A94B2F008C1238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F73D2F28E242CA00526D94 /* lazyapi in Frameworks */,
+				23AB7E0C28E4D8F6005A233D /* lazyapi in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23684FAF28A958AC007EFD03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		238DD00928A95CD500BF62A7 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				23F3663628A94C75008C1238 /* crack-music.arcade.mp3 */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		23A33FC528DC7937004EFA2F /* main */ = {
+			isa = PBXGroup;
+			children = (
+				23A33FCE28DC7DE2004EFA2F /* Main.storyboard */,
+				23F3663B28A94E6C008C1238 /* MainWindowController.swift */,
+				23F3661828A94C20008C1238 /* MainViewController.swift */,
+				23A33FD428DCB7C3004EFA2F /* MainViewController+Music.swift */,
+				230F917D28DDB1B000279637 /* MainViewController+ConversationListActions.swift */,
+				23A33FD028DCB690004EFA2F /* MainViewController+ConversationList.swift */,
+				23A33FD228DCB6A8004EFA2F /* MainViewController+ConversationMembers.swift */,
+				23A33FD628DCCF8C004EFA2F /* MainViewController+UserInfo.swift */,
+				23A33FD828DCDF19004EFA2F /* MainViewController+ConversationHistoryActions.swift */,
+				230F917F28DDB46F00279637 /* MainViewController+ConversationHistoryList.swift */,
+				23A33FDA28DCE1AF004EFA2F /* MainViewController+DeleteMessage.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		23A33FC628DC7942004EFA2F /* app-delegate */ = {
+			isa = PBXGroup;
+			children = (
+				23F3662A28A94C20008C1238 /* AppDelegate.swift */,
+			);
+			path = "app-delegate";
+			sourceTree = "<group>";
+		};
+		23F365F928A94B2F008C1238 = {
+			isa = PBXGroup;
+			children = (
+				23F3660428A94B2F008C1238 /* lazyslack */,
+				23F3660328A94B2F008C1238 /* Products */,
+				23684FAF28A958AC007EFD03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23F3660328A94B2F008C1238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23F3660228A94B2F008C1238 /* lazyslack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23F3660428A94B2F008C1238 /* lazyslack */ = {
+			isa = PBXGroup;
+			children = (
+				23F3663528A94C75008C1238 /* resouces */,
+				23F3661728A94C20008C1238 /* classes */,
+				23F3660928A94B30008C1238 /* Assets.xcassets */,
+				23F3660E28A94B30008C1238 /* lazyslack.entitlements */,
+			);
+			path = lazyslack;
+			sourceTree = "<group>";
+		};
+		23F3661728A94C20008C1238 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				23A33FC628DC7942004EFA2F /* app-delegate */,
+				23A33FC528DC7937004EFA2F /* main */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		23F3663528A94C75008C1238 /* resouces */ = {
+			isa = PBXGroup;
+			children = (
+				238DD00928A95CD500BF62A7 /* audio */,
+			);
+			path = resouces;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23F3660128A94B2F008C1238 /* lazyslack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F3661128A94B30008C1238 /* Build configuration list for PBXNativeTarget "lazyslack" */;
+			buildPhases = (
+				23F365FE28A94B2F008C1238 /* Sources */,
+				23F365FF28A94B2F008C1238 /* Frameworks */,
+				23F3660028A94B2F008C1238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lazyslack;
+			packageProductDependencies = (
+				23F73D2E28E242CA00526D94 /* lazyapi */,
+				23AB7E0B28E4D8F6005A233D /* lazyapi */,
+			);
+			productName = lazyslack;
+			productReference = 23F3660228A94B2F008C1238 /* lazyslack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23F365FA28A94B2F008C1238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					23F3660128A94B2F008C1238 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 23F365FD28A94B2F008C1238 /* Build configuration list for PBXProject "lazyslack" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23F365F928A94B2F008C1238;
+			packageReferences = (
+				23AB7E0A28E4D8F6005A233D /* XCRemoteSwiftPackageReference "lazyapi" */,
+			);
+			productRefGroup = 23F3660328A94B2F008C1238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23F3660128A94B2F008C1238 /* lazyslack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23F3660028A94B2F008C1238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A33FCF28DC7DE2004EFA2F /* Main.storyboard in Resources */,
+				23F3660A28A94B30008C1238 /* Assets.xcassets in Resources */,
+				23F3663728A94C75008C1238 /* crack-music.arcade.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23F365FE28A94B2F008C1238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A33FD728DCCF8C004EFA2F /* MainViewController+UserInfo.swift in Sources */,
+				23F3662B28A94C20008C1238 /* MainViewController.swift in Sources */,
+				23A33FDB28DCE1AF004EFA2F /* MainViewController+DeleteMessage.swift in Sources */,
+				23F3663C28A94E6C008C1238 /* MainWindowController.swift in Sources */,
+				230F918028DDB46F00279637 /* MainViewController+ConversationHistoryList.swift in Sources */,
+				23A33FD928DCDF19004EFA2F /* MainViewController+ConversationHistoryActions.swift in Sources */,
+				23F3663428A94C20008C1238 /* AppDelegate.swift in Sources */,
+				23A33FD528DCB7C3004EFA2F /* MainViewController+Music.swift in Sources */,
+				23A33FD128DCB690004EFA2F /* MainViewController+ConversationList.swift in Sources */,
+				23A33FD328DCB6A8004EFA2F /* MainViewController+ConversationMembers.swift in Sources */,
+				230F917E28DDB1B000279637 /* MainViewController+ConversationListActions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		23F3660F28A94B30008C1238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 0.0.1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 0.0.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23F3661028A94B30008C1238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 0.0.1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 0.0.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		23F3661228A94B30008C1238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = lazyslack/lazyslack.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 0.0.1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.lazyslack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		23F3661328A94B30008C1238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = lazyslack/lazyslack.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 0.0.1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.lazyslack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23F365FD28A94B2F008C1238 /* Build configuration list for PBXProject "lazyslack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F3660F28A94B30008C1238 /* Debug */,
+				23F3661028A94B30008C1238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F3661128A94B30008C1238 /* Build configuration list for PBXNativeTarget "lazyslack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F3661228A94B30008C1238 /* Debug */,
+				23F3661328A94B30008C1238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23AB7E0A28E4D8F6005A233D /* XCRemoteSwiftPackageReference "lazyapi" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hcyrig/lazyapi";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23AB7E0B28E4D8F6005A233D /* lazyapi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23AB7E0A28E4D8F6005A233D /* XCRemoteSwiftPackageReference "lazyapi" */;
+			productName = lazyapi;
+		};
+		23F73D2E28E242CA00526D94 /* lazyapi */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = lazyapi;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 23F365FA28A94B2F008C1238 /* Project object */;
+}

@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "nofoundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hcyrig/NOFoundation.git",
+      "state" : {
+        "revision" : "e708b64cf01827d0e7917248147eab3280254d48",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
